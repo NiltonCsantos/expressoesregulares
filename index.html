@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Validação de email</title>
+</head>
+<body>
+
+  <main>
+
+    <form action="" id="form">
+
+      <h1>Validar Login</h1>
+
+      <label for="name">Nome: </label>
+      <input type="name" id="name" required placeholder="Ex: João">
+
+      <label for="email">Email: </label>
+      <input type="email" id="email" required placeholder="Ex: joao456@email.com">
+      <span id="email-error"></span>
+
+      <label for="password">Senha: </label>
+      <input type="password" id="password" required placeholder="Ex: 128Ab@69">
+
+      <div>
+        <label for="check">Ver senha</label>
+        <input type="checkbox" name="check" id="check">
+      </div>
+  
+
+      <span id="password-error"></span>
+
+      <input type="submit" id="submit">
+  
+    </form>
+
+  </main>
+  
+  <script src="index.js"></script>
+</body>
+</html>
